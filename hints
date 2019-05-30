@@ -1,0 +1,23 @@
+to reverse a list— l.reverse()   /   l[::-1]
+
+Convert list of ints to one number----num = int(''.join(map(str,numList)))
+
+to convert number to list of digits——
+a=1234567
+l=[int (i) for i in str(a)]
+
+divmod(x,y)—div,mod
+
+For a given list we have to get non repeated item :
+Use ex-or operation then if any repeated no  occurs it will get refreshed use like below
+K=nums[0]
+For i in nums[1:]:
+       K=k^i
+Return k
+
+
+rotations:
+for i in range(0,k):
+    l.insert(0,l.pop(-1))
+l.pop(-1) gives lat element
+
